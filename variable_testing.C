@@ -76,5 +76,7 @@ int main () {
   float percentage = (float) userNumber/maxNumber * 100.0;
 
   printf("User's percentage is %.2f\n", percentage);
+
+  const int BIRTHYEAR = 1955;//must be assigned a value and good to have all uppercase
   return 0;
 }
